@@ -99,11 +99,9 @@ img:nth-of-type(2){
 }
 
 @media(max-width:48rem){
-    .container{
-        padding: 50px 0;
-    }
     .wrapper{
         flex-direction: column-reverse;
+        height: 90%;
     }
     .stats{
         padding: 20px 30px;
